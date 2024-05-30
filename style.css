@@ -1,0 +1,82 @@
+body {
+    display: grid;
+    justify-content: center;
+    background-color: #154c79;
+}
+
+.container-top {
+    display: grid;
+    width: 60%;
+    margin: auto;
+}
+
+.ribbon {
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    margin: 0px 20px;
+}
+
+.nav-bar {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.socials {
+    display: flex;
+    font-size: 50px;
+}
+
+#linkedin {
+    margin: 0px 10px;
+}
+
+#github {
+    margin: 0px 10px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-ribbon {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 15%;
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);
+    background-color: #000000;*/
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 1;
+}
+
+.overlay-socials {
+    position: absolute;
+    top: 94.4%;
+    left: 90.4%;
+}
+
+.container-mid {
+    display: grid;
+    width: 60%;
+    border: 1px solid black;
+    margin: auto;
+}
