@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <script src="https://kit.fontawesome.com/77ddc90eb4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-top">
+        <div>
+            <H3>KEVIN</H3>
+        </div>
+
+        <div>
+            <a href="file://///wsl$/Ubuntu/home/kanon/Profile-Website/kevinpasichnuk/home.html">HOME</a>
+            <a href="file://///wsl$/Ubuntu/home/kanon/Profile-Website/kevinpasichnuk/about.html">ABOUT</a>
+            <a href="file://///wsl$/Ubuntu/home/kanon/Profile-Website/kevinpasichnuk/portfolio.html">PORTFOLIO</a>
+            <a href="file://///wsl$/Ubuntu/home/kanon/Profile-Website/kevinpasichnuk/contact.html">CONTACT</a>
+        </div>
+    </div>
+
+    <form action="/form-handling-url" method="post">
+        <fieldset>
+            <legend>Add User</legend>
+
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="last_name">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email_address">
+            </div>
+
+            <div>
+
+            </div>
+            <label for="phone">
+                Enter your phone number:<br />
+                <small>Format: 123-456-7890</small>
+            </label>
+
+            <div>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+            </div>
+
+            <div>
+                <label for="homepage">Add your homepage:</label>
+                <input type="url" id="homepage" name="homepage">
+            </div>
+
+            <div class="comments">
+                <label for="comments">What would you like to discuss?</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
