@@ -70,13 +70,28 @@ body {
 
 .overlay-socials {
     position: absolute;
-    top: 94.4%;
+    top: 94.3%;
     left: 90.4%;
 }
 
-.container-mid {
-    display: grid;
+.container-bottom {
+    display: flex;
     width: 60%;
-    border: 1px solid black;
     margin: auto;
+    background-color: white;
+    align-items: center;
+}
+
+.profile {
+    display: grid;
+    width: 350px;
+    font-size: large;
+    justify-content: center;
+    margin-top: 155px;
+    margin-left: 165px;
+}
+
+.container-bottom img {
+    height: 500px;
+    margin-top: 214px;
 }
