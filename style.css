@@ -28,7 +28,9 @@ body {
 }
 
 .logo {
-    color: #fff;
+    background: linear-gradient(to right, rgb(24, 161, 60), rgb(123, 228, 82), rgb(184, 210, 42));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .nav-bar {
@@ -134,6 +136,16 @@ body {
     border-radius: 12px;
     cursor: pointer;
     background: linear-gradient(to right, rgb(18, 105, 42), rgb(81, 158, 51), rgb(136, 154, 33));
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #3a3838;
 }
 
 /*.overlay-socials {
