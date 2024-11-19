@@ -1,0 +1,69 @@
+body {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.image-container-top {
+    width: 100vw;
+    height: 100vh;
+}
+
+.image-container-top img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    filter: brightness(65%);
+    line-height: 0;
+}
+
+.ribbon {
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    margin: 0px 50px;
+}
+
+.logo {
+    background: linear-gradient(to right, rgb(24, 161, 60), rgb(123, 228, 82), rgb(184, 210, 42));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.nav-bar {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.overlay-ribbon {
+    display: grid;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background: linear-gradient(to right, rgb(24, 161, 60), rgb(123, 228, 82), rgb(184, 210, 42));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.profile {
+    width: 350px;
+    font-size: large;
+    justify-content: center;
+    margin-top: 155px;
+    margin-left: 165px;
+}
