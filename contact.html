@@ -1,75 +1,98 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <link rel="stylesheet" href="style_contact.css" type="text/css">
     <script src="https://kit.fontawesome.com/77ddc90eb4.js" crossorigin="anonymous"></script>
+    <meta name="description" content="A profile website">
+    <meta name="keywords" content="Kevin Pasichnuk">
+    <meta name="author" content="Kevin Pasichnuk">
     <title>Contact</title>
 </head>
 
 <body>
     <div class="container-top">
-        <div>
-            <H3>KEVIN</H3>
-        </div>
+        <h1> Image Gallery</h1>
+        <div class="image-container-top">
+            <!--<img id="background-image-top" src="images-home/kevin_hiking_png.png" alt="Kevin Hiking">-->
+            <div class="row">
+                <div class="column">
+                    <a href="images-home/IMG_20190708_111050.jpg" target="_blank">
+                        <img id="kevin-hiking-1" src="images-home/IMG_20190708_111050.jpg" alt="Kevin Hiking 1"
+                            width="100%;">
+                    </a>
+                    <p class="image_name">Hiking 1</p>
+                </div>
 
-        <div>
-            <a href="file://///wsl$/Ubuntu/home/kanon/Profile-Website/kevinpasichnuk/home.html">HOME</a>
-            <a href="file://///wsl$/Ubuntu/home/kanon/Profile-Website/kevinpasichnuk/about.html">ABOUT</a>
-            <a href="file://///wsl$/Ubuntu/home/kanon/Profile-Website/kevinpasichnuk/portfolio.html">PORTFOLIO</a>
-            <a href="file://///wsl$/Ubuntu/home/kanon/Profile-Website/kevinpasichnuk/contact.html">CONTACT</a>
+                <div class="column">
+                    <a href="images-home/IMG_20200531_113257.jpg">
+                        <img id="kevin-hiking-2" src="images-home/IMG_20200531_113257.jpg" alt="Kevin Hiking 2"
+                            width="100%;">
+                    </a>
+                    <p class="image_name">Hiking 2</p>
+                </div>
+
+                <div class="column">
+                    <a href="images-home/IMG_20200531_150707.jpg">
+                    <img id="kevin-hiking-3" src="images-home/IMG_20200531_150707.jpg" alt="Kevin Hiking 3"
+                        width="100%;">
+                    </a>
+                    <p class="image_name">Hiking 3</p>
+                </div>
+
+                <div class="column">
+                    <a href="images-home/Kevin-Hiking-Turtle-Mountain.jpg">
+                    <img id="kevin-hiking-4" src="images-home/Kevin-Hiking-Turtle-Mountain.jpg" alt="Kevin Hiking 4"
+                        width="100%;">
+                    </a>
+                    <p class="image_name">Hiking 4</p>
+                </div>
+
+                <div class="column">
+                    <a href="images-home/Kevin-Turtle-Mountain-2.jpg">
+                    <img id="kevin-hiking-5" src="images-home/Kevin-Turtle-Mountain-2.jpg" alt="Kevin Hiking 5"
+                        width="100%;">
+                    </a>
+                    <p class="image_name">Hiking 5</p>
+                </div>
+
+                <div class="column">
+                    <a href="images-home/Kevin-Splitboarding.jpg">
+                    <img id="kevin-split-boarding" src="images-home/Kevin-Splitboarding.jpg" alt="Kevin split boarding"
+                        width="100%;">
+                    </a>
+                    <p class="image_name">Split Boarding</p>
+                </div>
+            </div>
+
+            <div class="overlay-ribbon">
+                <div class="ribbon">
+                    <div class="logo">
+                        <H3>KEVIN PASICHNUK</H3>
+                    </div>
+                    <div class="nav-bar">
+                        <div class="link">
+                            <a href="file://///wsl$/Ubuntu/home/kanon/Profile-Website/kevinpasichnuk/home.html">HOME</a>
+                        </div>
+                        <div class="link">
+                            <a
+                                href="file://///wsl$/Ubuntu/home/kanon/Profile-Website/kevinpasichnuk/about.html">ABOUT</a>
+                        </div class="link">
+                        <div>
+                            <a
+                                href="file://///wsl$/Ubuntu/home/kanon/Profile-Website/kevinpasichnuk/portfolio.html">PROJECTS</a>
+                        </div class="link">
+                        <div>
+                            <a
+                                href="file://///wsl$/Ubuntu/home/kanon/Profile-Website/kevinpasichnuk/contact.html">CONTACT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <h1>Get in touch with me !!</h1>
-
-    <form action="/form-handling-url" method="post">
-        <fieldset>
-            <legend>Add User</legend>
-
-            <div>
-                <label for="firstName">First Name:</label>
-                <input type="text" id="firstName" name="first_name">
-            </div>
-
-            <div>
-                <label for="lastName">Last Name:</label>
-                <input type="text" id="lastName" name="last_name">
-            </div>
-
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email_address">
-            </div>
-
-            <div>
-
-            </div>
-            <label for="phone">
-                Enter your phone number:<br />
-                <small>Format: 123-456-7890</small>
-            </label>
-
-            <div>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
-            </div>
-
-            <div>
-                <label for="homepage">Add your homepage:</label>
-                <input type="url" id="homepage" name="homepage">
-            </div>
-
-            <div class="comments">
-                <label for="comments">What would you like to discuss?</label>
-                <textarea id="comments" name="comments"></textarea>
-            </div>
-
-            <div>
-                <button type="submit">Submit</button>
-            </div>
-        </fieldset>
-    </form>
 </body>
 
 </html>
